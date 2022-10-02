@@ -1,0 +1,24 @@
+//Program untuk menghitung harga jual sepeda bekas setelah 3 tahun
+#include <iostream>
+#define PRICE_DECREASE_1 0.15
+#define PRICE_DECREASE_2 0.10
+#define PRICE_DECREASE_3 0.08
+
+using namespace std;
+
+int main()
+}
+  double Price, First_Year_Price, Second_Year_Price, Final_Price;
+  cout <‹ "Enter the bicycle price : Rp." 
+  cin >> Price;
+  
+  First_Year_Price = Price*(1-PRICE_DECREASE_1);
+  cout << "The first year price is Rp." << First_Year Price << endl;
+  
+  Second_Year_Price = First_Year_Price* (1-PRICE_DECREASE_2):
+  cout <‹ "The second year price is Rp." << Second Year Price << endl;
+  
+  Final_Price = Second_Year_Price*(1-PRICE_DECREASE_3);
+  cout << "The bicycle final price is Rp." << Final Price;
+  return 0;
+{
